@@ -8,7 +8,8 @@ def test_sum_numbers_123():
 
 def test_sum_numbers_yours():
     # write another test of the sum_numbers function
-    pass
+    sum = sum_numbers([1, 40000])
+    assert sum == 40001
 
 def test_sum_numbers_empty():
     # what's the sum of an empty list?
